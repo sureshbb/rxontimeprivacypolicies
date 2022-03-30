@@ -1,0 +1,852 @@
+{\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff1\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang1033\deflangfe1033\themelang1033\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fbidi \fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\fbidi \froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\fbidi \fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Helvetica;}
+{\f10\fbidi \fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0302020204030204}Calibri Light;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}
+{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f43\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f44\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\f46\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f47\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f48\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f49\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\f50\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f51\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f53\fbidi \fswiss\fcharset238\fprq2 Arial CE;}{\f54\fbidi \fswiss\fcharset204\fprq2 Arial Cyr;}
+{\f56\fbidi \fswiss\fcharset161\fprq2 Arial Greek;}{\f57\fbidi \fswiss\fcharset162\fprq2 Arial Tur;}{\f58\fbidi \fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f59\fbidi \fswiss\fcharset178\fprq2 Arial (Arabic);}
+{\f60\fbidi \fswiss\fcharset186\fprq2 Arial Baltic;}{\f61\fbidi \fswiss\fcharset163\fprq2 Arial (Vietnamese);}{\f63\fbidi \fmodern\fcharset238\fprq1 Courier New CE;}{\f64\fbidi \fmodern\fcharset204\fprq1 Courier New Cyr;}
+{\f66\fbidi \fmodern\fcharset161\fprq1 Courier New Greek;}{\f67\fbidi \fmodern\fcharset162\fprq1 Courier New Tur;}{\f68\fbidi \fmodern\fcharset177\fprq1 Courier New (Hebrew);}{\f69\fbidi \fmodern\fcharset178\fprq1 Courier New (Arabic);}
+{\f70\fbidi \fmodern\fcharset186\fprq1 Courier New Baltic;}{\f71\fbidi \fmodern\fcharset163\fprq1 Courier New (Vietnamese);}{\f83\fbidi \fswiss\fcharset238\fprq2 Helvetica CE;}{\f84\fbidi \fswiss\fcharset204\fprq2 Helvetica Cyr;}
+{\f86\fbidi \fswiss\fcharset161\fprq2 Helvetica Greek;}{\f87\fbidi \fswiss\fcharset162\fprq2 Helvetica Tur;}{\f88\fbidi \fswiss\fcharset177\fprq2 Helvetica (Hebrew);}{\f89\fbidi \fswiss\fcharset178\fprq2 Helvetica (Arabic);}
+{\f90\fbidi \fswiss\fcharset186\fprq2 Helvetica Baltic;}{\f91\fbidi \fswiss\fcharset163\fprq2 Helvetica (Vietnamese);}{\f383\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f384\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}
+{\f386\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f387\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f390\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f391\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}
+{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fdbmajor\f31521\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbmajor\f31522\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\fdbmajor\f31523\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fdbmajor\f31524\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbmajor\f31525\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\fdbmajor\f31526\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fhimajor\f31528\fbidi \fswiss\fcharset238\fprq2 Calibri Light CE;}{\fhimajor\f31529\fbidi \fswiss\fcharset204\fprq2 Calibri Light Cyr;}
+{\fhimajor\f31531\fbidi \fswiss\fcharset161\fprq2 Calibri Light Greek;}{\fhimajor\f31532\fbidi \fswiss\fcharset162\fprq2 Calibri Light Tur;}{\fhimajor\f31533\fbidi \fswiss\fcharset177\fprq2 Calibri Light (Hebrew);}
+{\fhimajor\f31534\fbidi \fswiss\fcharset178\fprq2 Calibri Light (Arabic);}{\fhimajor\f31535\fbidi \fswiss\fcharset186\fprq2 Calibri Light Baltic;}{\fhimajor\f31536\fbidi \fswiss\fcharset163\fprq2 Calibri Light (Vietnamese);}
+{\fbimajor\f31538\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbimajor\f31539\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\fbimajor\f31541\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}
+{\fbimajor\f31542\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbimajor\f31543\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\fbimajor\f31544\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
+{\fbimajor\f31545\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbimajor\f31546\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\flominor\f31548\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\flominor\f31549\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flominor\f31551\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flominor\f31552\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\flominor\f31553\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flominor\f31554\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flominor\f31555\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\flominor\f31556\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbminor\f31558\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbminor\f31559\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fdbminor\f31561\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fdbminor\f31562\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fdbminor\f31563\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fdbminor\f31564\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fdbminor\f31565\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fdbminor\f31566\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}
+{\fhiminor\f31568\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\fhiminor\f31569\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\fhiminor\f31571\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\fhiminor\f31572\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
+{\fhiminor\f31573\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\fhiminor\f31574\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\fhiminor\f31575\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}
+{\fhiminor\f31576\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\fbiminor\f31578\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fbiminor\f31579\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
+{\fbiminor\f31581\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\fbiminor\f31582\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\fbiminor\f31583\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}
+{\fbiminor\f31584\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\fbiminor\f31585\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\fbiminor\f31586\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue0;\red0\green0\blue0;\red201\green0\blue0;\red64\green64\blue64;\red201\green0\blue22;}{\*\defchp 
+\fs22\loch\af31506\hich\af31506\dbch\af31505 }{\*\defpap \ql \li0\ri0\sa160\sl259\slmult1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 }\noqfpromote {\stylesheet{\ql \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0 
+\rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext0 \sqformat \spriority0 Normal;}{
+\s1\ql \li0\ri0\sb240\sa60\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel0\rin0\lin0\itap0 \rtlch\fcs1 \ab\af1\afs28\alang1025 \ltrch\fcs0 \b\fs28\lang1033\langfe1033\kerning28\loch\f1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 
+\sbasedon0 \snext0 \slink15 \sqformat heading 1;}{\s2\ql \li0\ri0\sb240\sa60\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel1\rin0\lin0\itap0 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\f1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink16 \sqformat heading 2;}{\s3\ql \li0\ri0\sb240\sa60\keepn\nowidctlpar\wrapdefault\faauto\outlinelevel2\rin0\lin0\itap0 \rtlch\fcs1 
+\ab\af1\afs22\alang1025 \ltrch\fcs0 \b\fs22\lang1033\langfe1033\loch\f1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext0 \slink17 \sqformat heading 3;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}
+{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl259\slmult1
+\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp1033\langfenp1033 \snext11 \ssemihidden \sunhideused 
+Normal Table;}{\*\cs15 \additive \rtlch\fcs1 \ab\af0\afs32 \ltrch\fcs0 \b\fs32\kerning32\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink1 \slocked \spriority9 Heading 1 Char;}{\*\cs16 \additive \rtlch\fcs1 \ab\ai\af0\afs28 \ltrch\fcs0 
+\b\i\fs28\loch\f31502\hich\af31502\dbch\af31501 \sbasedon10 \slink2 \slocked \ssemihidden \spriority9 Heading 2 Char;}{\*\cs17 \additive \rtlch\fcs1 \ab\af0\afs26 \ltrch\fcs0 \b\fs26\loch\f31502\hich\af31502\dbch\af31501 
+\sbasedon10 \slink3 \slocked \ssemihidden \spriority9 Heading 3 Char;}{\s18\ql \li0\ri0\sb100\sa100\sbauto1\saauto1\widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\f0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 \sbasedon0 \snext18 \ssemihidden \sunhideused \styrsid4481453 Normal (Web);}{\*\cs19 \additive \rtlch\fcs1 \af0 \ltrch\fcs0 \ul\cf2 
+\sbasedon10 \ssemihidden \sunhideused \styrsid4481453 Hyperlink;}}{\*\listtable{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext\'01\u-3913 ?;}{\levelnumbers;}
+\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fs20\fbias0 \fi-360\li1440
+\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160\jclisttab\tx2160\lin2160 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}
+\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid143278654}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0{\leveltext
+\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}\f2\fs20\fbias0 
+\fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid350762179}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid546112037}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid570845043}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid866790709}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid971247484}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1308389282}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1311638840}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1347290649}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1460488271}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1828472690}{\list\listtemplateid-1{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace0\levelindent0
+{\leveltext\'01\u-3913 ?;}{\levelnumbers;}\f3\fs20\fbias0 \fi-360\li720\jclisttab\tx720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01o;}{\levelnumbers;}
+\f2\fs20\fbias0 \fi-360\li1440\jclisttab\tx1440\lin1440 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2160
+\jclisttab\tx2160\lin2160 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li2880\jclisttab\tx2880\lin2880 }
+{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li3600\jclisttab\tx3600\lin3600 }{\listlevel\levelnfc23\levelnfcn23
+\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li4320\jclisttab\tx4320\lin4320 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0
+\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5040\jclisttab\tx5040\lin5040 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative
+\levelspace0\levelindent0{\leveltext\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li5760\jclisttab\tx5760\lin5760 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\lvltentative\levelspace0\levelindent0{\leveltext
+\'01\u-3929 ?;}{\levelnumbers;}\f10\fs20\fbias0 \fi-360\li6480\jclisttab\tx6480\lin6480 }{\listname ;}\listid1897354424}}{\*\listoverridetable{\listoverride\listid866790709\listoverridecount0\ls1}{\listoverride\listid1347290649\listoverridecount0\ls2}
+{\listoverride\listid1897354424\listoverridecount0\ls3}{\listoverride\listid546112037\listoverridecount0\ls4}{\listoverride\listid1460488271\listoverridecount0\ls5}{\listoverride\listid1828472690\listoverridecount0\ls6}{\listoverride\listid350762179
+\listoverridecount0\ls7}{\listoverride\listid1308389282\listoverridecount0\ls8}{\listoverride\listid971247484\listoverridecount0\ls9}{\listoverride\listid570845043\listoverridecount0\ls10}{\listoverride\listid1311638840\listoverridecount0\ls11}
+{\listoverride\listid143278654\listoverridecount0\ls12}}{\*\pgptbl {\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}{\pgp\ipgp0\itap0\li0\ri0\sb0\sa0}}{\*\rsidtbl \rsid933210\rsid1053772\rsid2953358\rsid4481453\rsid4945665\rsid6042575\rsid9057839\rsid9184152
+\rsid10898730\rsid10899352\rsid11890158\rsid12014251\rsid12156619\rsid12719232\rsid12995604\rsid13044415\rsid16254239}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}{\info
+{\operator tejo object}{\creatim\yr2022\mo1\dy26\hr21\min32}{\revtim\yr2022\mo3\dy19\hr16\min20}{\version10}{\edmins43}{\nofpages9}{\nofwords3517}{\nofchars20052}{\nofcharsws23522}{\vern43}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/20
+03/wordml}}\paperw12240\paperh15840\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
+\dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale100\rsidroot4945665 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}
+{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}
+{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9
+\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \ltrpar\s1\qj \li0\ri0\sa300\sl288\slmult0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel0\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\af1\afs28\alang1025 \ltrch\fcs0 
+\b\fs28\lang1033\langfe1033\kerning28\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs27 \ltrch\fcs0 \f4\fs27\cf19\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Privacy Policy
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Effective Date: }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid10899352 \hich\af1\dbch\af31505\loch\f1 March 19 2022}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 This Privacy Policy describes how }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid11890158 \hich\af1\dbch\af31505\loch\f1 Rx Online}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 . ("}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 
+\hich\af1\dbch\af31505\loch\f1 RxOnTime}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid10899352 \hich\af1\dbch\af31505\loch\f1 n\hich\af1\dbch\af31505\loch\f1 Time}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\hich\af1\dbch\af31505\loch\f1 ," "we" or "us") may collect information about you through your interactions }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid12156619 \hich\af1\dbch\af31505\loch\f1 within}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid11890158 \hich\af1\dbch\af31505\loch\f1  our}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+ mobile applications (collectively, the "Services"). By using the Services, you agree to the terms of this Privacy Policy. If you have any questions or concerns about t\hich\af1\dbch\af31505\loch\f1 
+his Privacy Policy, or about the way your information is collected and used, please call us \hich\af1\dbch\af31505\loch\f1 at }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid10899352 \hich\af1\dbch\af31505\loch\f1 913-219-1243}{\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 .
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+To the extent that information collected through the Services is patient information provided to obtain pharmacy services, this infor\hich\af1\dbch\af31505\loch\f1 mation is governed by the }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid12156619 \hich\af1\dbch\af31505\loch\f1 Ointmentlike}{\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid10899352 \hich\af1\dbch\af31505\loch\f1  }{\field\fldedit{\*\fldinst {\rtlch\fcs1 
+\ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1  HYPERLINK "https://www.cvs.com/content/patient-privacy" \\t "_blank" }{\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr
+\brdrnone\brdrframe1 \insrsid10899352 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000083000000070000005f0062006c0061006e006b000000e0c9ea79f9bace118c8200aa004ba90b70000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f0063006f006e00740065006e0074002f007000610074006900
+65006e0074002d0070007200690076006100630079000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \cs19\b\f1\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+Notice of Privacy Practices}}}\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \~\hich\af1\dbch\af31505\loch\f1 and not this Privacy Policy.}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \~\hich\af1\dbch\af31505\loch\f1 If you have questions about which policy applies to information you have provided, please do not hesitate to\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  HYPERLINK "https://www.cvs.com/help/help_contact_us.jsp" }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid10899352 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b72000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f00680065006c0070002f00680065006c0070005f0063006f006e0074006100630074005f00750073002e00
+6a00730070000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\f1\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Contact Us}}}\sectd \ltrsect
+\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 , or call us \hich\af1\dbch\af31505\loch\f1 at }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid10899352 
+\hich\af1\dbch\af31505\loch\f1 913-219-1243}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 We may change this Privacy Polic\hich\af1\dbch\af31505\loch\f1 
+y. The "Effective Date" legend at the top of this page indicates when this Privacy Policy was last revised. Any changes will become effective when we post the revised Privacy Policy on the Services. Your use of the Services following these changes means t
+\hich\af1\dbch\af31505\loch\f1 h\hich\af1\dbch\af31505\loch\f1 at you accept the revised Privacy Policy.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Who May Use the Services
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We do not knowingly collect personal information online from any person we know to be under the age of 13 and instruct users under 13 not to send us any information to or through the onli\hich\af1\dbch\af31505\loch\f1 ne Services.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+The online Services are designed for users from, and are controlled and operated by us from, the United States. By using the Services, you consent to the transfer of your information to the United States or storage of your information in the
+\hich\af1\dbch\af31505\loch\f1  United States, which may have different data protection rules than those of your country.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 The Personal Information We Collect
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We want you to understand how personal information you provide to us is collected \hich\af1\dbch\af31505\loch\f1 
+and used. Personal information is any information that we can use to identify, locate, or contact you. We may collect and store your personal information when you provide it to us or to our service providers. Some examples of personal information we colle
+\hich\af1\dbch\af31505\loch\f1 c\hich\af1\dbch\af31505\loch\f1 t and when we collect it include:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls1\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 when you register for accounts on mobile application
+
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 w\hich\af4\dbch\af31505\loch\f4 
+hen you indicate that you are interested in receiving information about our products or services, such as e-mail alerts, newsletters, and other notifications
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 your interactions with our \hich\af4\dbch\af31505\loch\f4 mobile application}{\rtlch\fcs1 
+\af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid13044415 \hich\af4\dbch\af31505\loch\f4  }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 and other online services
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 how you use our sites\hich\af4\dbch\af31505\loch\f4 
+ and mobile applications, search terms, pages you visit on our mobile applications, computer and mobile device information and push notification services you request
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 
+general location information from your browser or device, which we use for internal purposes only
+\par }\pard \ltrpar\qj \li1170\ri0\sl288\slmult0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin1170\itap0\pararsid12719232 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid12719232 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+If you choose not to provide your personal information to us, we may not be able to provide you with reque\hich\af1\dbch\af31505\loch\f1 sted products, services or information.}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+If you submit any personal information relating to other people in connection with the Services, you represent that you have the authority to do so and to permit us to use the information in accordance with this Pr\hich\af1\dbch\af31505\loch\f1 
+ivacy Policy.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may combine the information collected from you through the Services with information we receive from and about you from other online and offline sources, such as in our stores, and use the combined information in accordance with this Pri
+\hich\af1\dbch\af31505\loch\f1 vacy Policy. Our goal is to offer you content, advertisements, products, and services that are most likely to appeal to you.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Use and Disclosure of Personal Information
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 We use your personal information to respond to your requests, such as }{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid12719232 \hich\af1\dbch\af31505\loch\f1 adding your \hich\af1\dbch\af31505\loch\f1 prescriptions\hich\af1\dbch\af31505\loch\f1  }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\hich\af1\dbch\af31505\loch\f1 to }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid12719232 \hich\af1\dbch\af31505\loch\f1 monito\hich\af1\dbch\af31505\loch\f1 r\hich\af1\dbch\af31505\loch\f1 , }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 contact you with information about your }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid12719232 \hich\af1\dbch\af31505\loch\f1 prescriptions}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 , send you email alerts, send you newsletters, and to provide you with related customer service. We may also use your \hich\af1\dbch\af31505\loch\f1 
+information to send marketing communications and administrative information to you, including through the use of push notifications in our apps. Manage subscription services, including order management, billing, improving reorder experiences, communicate 
+\hich\af1\dbch\af31505\loch\f1 w\hich\af1\dbch\af31505\loch\f1 ith you about your account, and offer other products and services that may be of interest to you, including those that we recommend from third parties through }{\rtlch\fcs1 \af1\afs21 
+\ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid12719232 \hich\af1\dbch\af31505\loch\f1 nTime}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may use your personal information to personalize your experience shoppi\hich\af1\dbch\af31505\loch\f1 
+ng and interacting with us, including by presenting products and offers tailored to you, and for our business purposes, such as data analysis, audits, fraud monitoring and prevention, developing our Services and new products and services, determining the 
+\hich\af1\dbch\af31505\loch\f1 e\hich\af1\dbch\af31505\loch\f1 ffectiveness of our promotional campaigns, and operating and expanding our business activities.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+To the extent permitted by applicable law, we may provide personal information to our affiliated businesses or to our business partners, who may use it to sen\hich\af1\dbch\af31505\loch\f1 d you marketing and other communications.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may disclose personal information to our service providers, who provide services such as website hosting, data analysis, payment processing, order fulfilment, information technology and related infrastructure \hich\af1\dbch\af31505\loch\f1 
+provision, customer service, email delivery, auditing, and other services.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 If we are requested by law enforcement officials or judicial 
+\hich\af1\dbch\af31505\loch\f1 
+authorities to provide personal information, we may do so. In matters involving claims of personal or public safety or in litigation where the information is pertinent (including to allow us to pursue available remedies or limit the damages that we may su
+\hich\af1\dbch\af31505\loch\f1 s\hich\af1\dbch\af31505\loch\f1 
+tain), we may use or disclose personal information, including without court process. We may also use or disclose personal information to enforce our terms and conditions, to protect our operations or those of any of our affiliates, or to protect our right
+\hich\af1\dbch\af31505\loch\f1 s\hich\af1\dbch\af31505\loch\f1 , privacy, safety or property and/or that of our affiliates, you, or others.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may use and disclose information that does not personally identify you (including the information described under "Cookies and Other Technologies," below) for any purpose, ex\hich\af1\dbch\af31505\loch\f1 
+cept to the extent limited by applicable law. If we are required to treat such information as personal information under applicable law, then we may use it for all the purposes for which we use and disclose personal information.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 We may combine informatio\hich\af1\dbch\af31505\loch\f1 
+n that does not personally identify you with personal information. If we do, we will treat the combined information as personal information as long as it is combined.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Social Media
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may use and disclose your personal information to facilitate social med\hich\af1\dbch\af31505\loch\f1 
+ia sharing functionality that you initiate. If you choose to connect your social media account (e.g., Facebook, Twitter, Pinterest) with your Services account or otherwise engage in social sharing on the Services, your personal information may be shared w
+\hich\af1\dbch\af31505\loch\f1 i\hich\af1\dbch\af31505\loch\f1 
+th your friends, contacts or others associated with your social media account, with other Services users, and with your social media account provider. By connecting your Services account and your social media account or contacting us via social media, you
+\hich\af1\dbch\af31505\loch\f1  \hich\af1\dbch\af31505\loch\f1 
+authorize us to share information with your social media account provider, and you understand that the use of the information we share will be governed by the social media site's privacy policy.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 For example, if you utilize a social media feature such as 
+\hich\af1\dbch\af31505\loch\f1 
+the Facebook "Like" button, Google Plus, Pinterest or a Twitter widget, these features may collect information about your IP address and which page you're visiting on our site, and they may set a cookie or employ other tracking technologies. Social media 
+\hich\af1\dbch\af31505\loch\f1 f\hich\af1\dbch\af31505\loch\f1 
+eatures and widgets are either hosted by a third party or hosted directly on our site. Your interactions with those features are governed by the privacy policies of the companies that provide them.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 We may display targeted ads to you through social media 
+\hich\af1\dbch\af31505\loch\f1 
+platforms. These ads are sent to groups of people who share traits, such as where they live or have expressed an interest in shopping for cosmetics on our mobile site. We do not share any of your personally identifiable information, including your shoppin
+\hich\af1\dbch\af31505\loch\f1 g\hich\af1\dbch\af31505\loch\f1 
+ history or health information, with social media platforms. See the policies of each social media platform for additional information about these types of ads, including how to manage your display settings for these ads.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Information from Other Sources
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may collect data about you from publicly available sources to personalize your experience. We may also obtain data provided by third parties. For example, we may obtain information from companies to improve the accuracy of the information we have about
+\hich\af1\dbch\af31505\loch\f1  \hich\af1\dbch\af31505\loch\f1 you (e.g., adding your zip code to your address information). This improves our ability to contact you and increases the relevance of our offers and communications to you.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Security
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We seek to use reasonable physical, technical, and administrative safegua\hich\af1\dbch\af31505\loch\f1 
+rds to protect personal information within our organization. Unfortunately, no data transmission or storage system can be guaranteed to be 100% secure. If you have reason to believe that your interaction with us is no longer secure (for example, if you fe
+\hich\af1\dbch\af31505\loch\f1 e\hich\af1\dbch\af31505\loch\f1 l that the security of your account with us has been compromised), please immediately contact us in accordance with the "Contact Information" section below.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+You are responsible for maintaining the confidentiality of your Services access information and p\hich\af1\dbch\af31505\loch\f1 
+assword and for restricting access to your device, and you agree to accept responsibility for all activities that occur under your password.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Telephone, Text and Fax Policy
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 By providing your residential or wireless phone and/or fax number(s) to 
+}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid12719232 \hich\af1\dbch\af31505\loch\f1 nTime}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 , you expressly consent to receive marketing and non-marketing autodialed and/or\hich\af1\dbch\af31505\loch\f1  text messages and faxes (including fax advertisements) from or on behalf of }{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 nTime}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1  }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 a\hich\af1\dbch\af31505\loch\f1 
+t the number(s) provided. Your consent to receive calls or texts on your wireless device is not a condition of any purchase. Consent may be revoked at any time by calling \hich\af1\dbch\af31505\loch\f1 your opt-out request }{\rtlch\fcs1 \af1\afs21 
+\ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 91\hich\af1\dbch\af31505\loch\f1 3\hich\af1\dbch\af31505\loch\f1 -219-12\hich\af1\dbch\af31505\loch\f1 43}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf6\insrsid4481453\charrsid933210 .}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \~\hich\af1\dbch\af31505\loch\f1 You may also send an opt-out request via email to }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf6\insrsid4481453\charrsid933210 \hich\af1\dbch\af31505\loch\f1 do_not_call@}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RxOnTime\hich\af1\dbch\af31505\loch\f1 n\hich\af1\dbch\af31505\loch\f1 T
+\hich\af1\dbch\af31505\loch\f1 ime}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid4481453\charrsid933210 .}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 ai}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf6\insrsid4481453\charrsid933210 \hich\af1\dbch\af31505\loch\f1  }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+with the phone and/or fax number you wish to opt-out. Your wireless carrier's standard message and data rates may apply.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Text Messaging Terms and Conditions
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid11890158 \hich\af1\dbch\af31505\loch\f1 Rx On\hich\af1\dbch\af31505\loch\f1 line}{\rtlch\fcs1 \af1\afs21 
+\ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 ., or one or more of its affiliates (}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 R\hich\af1\dbch\af31505\loch\f1 x
+\hich\af1\dbch\af31505\loch\f1 O\hich\af1\dbch\af31505\loch\f1 n\hich\af1\dbch\af31505\loch\f1 T\hich\af1\dbch\af31505\loch\f1 ime}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+) offers access to pharmacy and healthcare service messages via recurring SMS (Short Message Service) and MMS (Multimedia Message Service) text alerts. Enrollment in text alerts requires a patient to provide his \hich\af1\dbch\af31505\loch\f1 
+or her own mobile phone number with an area code within the 50 United States or the District of Columbia. By enrolling to receive }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  text alerts, you agree to these terms and conditions, which become effective upon your enrollment. You may be asked to ver\hich\af1\dbch\af31505\loch\f1 
+ify your mobile phone number before the service will start. This requires responding to a text alert sent to your mobile phone confirming your enrollment in this Service.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+You acknowledge that text alerts will be sent to the mobile phone number you provid\hich\af1\dbch\af31505\loch\f1 e to }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 
+\ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+. Such alerts may include limited personal information about your prescriptions, and whoever has access to the mobile phone or carrier account will also be able to see this information. Once you enroll, the frequency of text alerts we send to you w
+\hich\af1\dbch\af31505\loch\f1 ill vary. You will typically receive text alerts when we have information for you about your prescriptions or other healthcare information. }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 
+\hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  \hich\af1\dbch\af31505\loch\f1 
+does not impose a separate charge for text alerts; however, your mobile carrier's message and data rate\hich\af1\dbch\af31505\loch\f1 
+s may apply depending on the terms and conditions of your mobile phone contract. You are solely responsible for all message and data charges that you incur. Please contact your mobile service provider about such charges. The following carriers are support
+\hich\af1\dbch\af31505\loch\f1 e\hich\af1\dbch\af31505\loch\f1 \hich\f1 d: AT&T, Sprint, Boost, Verizon Wireless, U.S. Cellular\'ae\loch\f1 \hich\f1 , T-Mobile\'ae\loch\f1 
+, Cincinnati Bell, Alltel, Virgin Mobile USA, Cellular South, Unicel, Centennial and nTelos. You may opt out of }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  text alerts at any time. \hich\af1\dbch\af31505\loch\f1 will opt you out of any and all future }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 
+RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  text messages. After you submit a request to unsubscribe, you will receive one final text al\hich\af1\dbch\af31505\loch\f1 ert from }{\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  confirming that you will no longer receive text alerts. 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par 
+\par }\pard \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid933210 {\rtlch\fcs1 \af4\afs18 \ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Your Choices and Access
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+You can take yourself off our email list for promotional offers at any time by updating your Email Communications\hich\af1\dbch\af31505\loch\f1  Settings in the\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\hich\af1\dbch\af31505\loch\f1  HYPERLINK "https://www.cvs.com/account/my-account.jsp" }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid10899352 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b6e000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f006100630063006f0075006e0074002f006d0079002d006100630063006f0075006e0074002e006a007300
+70000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\f1\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 My Account}}}\sectd \ltrsect
+\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \~\hich\af1\dbch\af31505\loch\f1 section of the website, or by following the instructions in those emails.\hich\af1\dbch\af31505\loch\f1 
+ If you opt out of receiving promotional emails from us, we may still send you important administrative messages, from which you cannot opt out.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+You may stop the receipt of push notifications through your mobile device settings.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 You ca\hich\af1\dbch\af31505\loch\f1 
+n request the removal or modification of the personal information you have provided to us by sending an email to the appropriate area under "Contact Us". For your protection, we may only implement requests with respect to the personal information associat
+\hich\af1\dbch\af31505\loch\f1 e\hich\af1\dbch\af31505\loch\f1 
+d with the particular email address that you use to send us your request, and we may need to verify your identity and obtain information on the context in which you provided your personal information before implementing your request. We will try to accomm
+\hich\af1\dbch\af31505\loch\f1 o\hich\af1\dbch\af31505\loch\f1 date your request as soon as reasonably practicable.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 You can stop all further collection of information by a }{\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  mobile application by uninstalling the }{\rtlch\fcs1 \af1\afs21 
+\ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+ mobile application. You may use the standard uninstall process available as part of your mobile de\hich\af1\dbch\af31505\loch\f1 vice or via the mobile application marketplace or network.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Note: If you uninstall the mobile application from your device, the }{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+ unique identifier associated with your install and/or device might continue to be stored. If you re-install the application\hich\af1\dbch\af31505\loch\f1  on the same device, }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 
+\hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  might be able to re-associate this identifier to your previous transactions and activities.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+Please note that we may need to retain certain information for recordkeeping purposes and/or to complete any transactions that you began \hich\af1\dbch\af31505\loch\f1 
+prior to requesting such change or deletion. There may also be residual information that will remain within our databases and other records, which will not be removed.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+If you are a minor, you may remove or request removal of any content or information yo\hich\af1\dbch\af31505\loch\f1 u post on our site. To request removal of content or information you have posted to our site, please\~}{\field\fldedit{\*\fldinst {
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  HYPERLINK "https://www.cvs.com/help/help_contact_us.jsp" }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid10899352 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b72000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f00680065006c0070002f00680065006c0070005f0063006f006e0074006100630074005f00750073002e00
+6a00730070000000795881f43b1d7f48af2c825dc485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\f1\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Contact Us}}}\sectd \ltrsect
+\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 . Removal or requests for removal of content or information that has been posted to \hich\af1\dbch\af31505\loch\f1 
+our website does not ensure complete or comprehensive removal.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Your Responsibility
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 By establishing a }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid2953358 \hich\af1\dbch\af31505\loch\f1 RxOnTime.ai}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  account, you agree that it is your responsibility to:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls2\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Authorize, monitor, \hich\af4\dbch\af31505\loch\f4 
+and control access to and use of your }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid2953358 \hich\af4\dbch\af31505\loch\f4 RxOnTime.ai}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 
+ account, User ID and password.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Promptly inform us of any need to deactivate a password or an account by calling }{
+\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af4\dbch\af31505\loch\f4 Customer Care at }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid2953358 \hich\af4\dbch\af31505\loch\f4 913-219-1243}{\rtlch\fcs1 
+\af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 {\*\bkmkstart californiaprivacyrights}{\*\bkmkend californiaprivacyrights}\hich\af1\dbch\af31505\loch\f1 
+Your California P\hich\af1\dbch\af31505\loch\f1 rivacy Rights
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 California Consumer Privacy Act (CCPA)}
+{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid2953358 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+This section applies to any California residents about whom we have collected personal information from any source, including through your use of our Website(s), by buying our products or services, or \hich\af1\dbch\af31505\loch\f1 
+by communicating with us electronically, in paper correspondence, or in person (collectively, "you").
+\par }\pard \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs18 \ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 For purposes of this section, "person\hich\af1\dbch\af31505\loch\f1 
+al information" means information that identifies, relates to, describes, is reasonably capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular California consumer/resident or household. Personal informat
+\hich\af1\dbch\af31505\loch\f1 i\hich\af1\dbch\af31505\loch\f1 on does not include publicly available information or information that has been de-identified.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 A. What Information We Collect}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 We may collect the following categories of personal information about you:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls3\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Identifiers, which may include real name and alia
+\hich\af4\dbch\af31505\loch\f4 
+s; postal address; unique personal identifier; online identifiers as detailed below; Internet Protocol ("IP") address; email address; telephone number; account number, name, and password; driver's license number, state or other government-issued identific
+\hich\af4\dbch\af31505\loch\f4 a\hich\af4\dbch\af31505\loch\f4 tion card number; MAC address; and/or other similar identifiers;
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 
+Commercial information, which may include purchasing and transaction history online and in stores, or consumer histories or tendencies;
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 
+Geolocation data, which may include Global Positioning System ("GPS") data; locational information based upon your IP address; cell network data; and/or other similar locational data; and which may be collected from various devices including your mobile d
+\hich\af4\dbch\af31505\loch\f4 e\hich\af4\dbch\af31505\loch\f4 vice(s) or vehicle(s);
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Professional or employment-related information, such as whether you are a }{\rtlch\fcs1 
+\af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid16254239 \hich\af4\dbch\af31505\loch\f4 RXONTIME}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4  Health colleague;
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 
+Information not listed above and related to characteristics protected under California or federal law; which may include gender; race\hich\af4\dbch\af31505\loch\f4 
+ and ethnicity; language; religion; country of origin; marital status; military service / veteran status; and/or date of birth;
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 \hich\f4 
+Other personal information not listed above and described in California Civil Code \'a7\loch\f4  1798.80(e), which may include signature; \hich\af4\dbch\af31505\loch\f4 
+physical characteristics or description; and/or bank account number credit card number, debit card number, and other financial or health information).
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 B. What We Do With Your Information}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 We may collect or use personal information from you for the following\hich\af1\dbch\af31505\loch\f1  purposes:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls4\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Internal analytics
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Assessing third party vendors / service providers
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Audit, compliance, policy, procedures, or regulation
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Billing, payment, and fulfillment
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Customer claims and fraud investigation and prevention
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Customer communications
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Customer relationship management
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 General business administration
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Marketing products and services
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Financial reporting and accounting
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid12014251 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid12014251 \hich\af4\dbch\af31505\loch\f4 App}{\rtlch\fcs1 
+\af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4  optimization and maintenance
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Systems and data security
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 C. Sources of Collected Information}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 We may collect personal information from the following categories of sources:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls5\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 
+Our customers, and prospective customers, including via purchasing goods and services in our stores, our mobile applications,
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 
+Our service providers, which includes affiliates, marketing / customer relationship management providers, social media, technology / website hosting providers, analytics providers, and systems administrators / security and fraud investigations providers;
+
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 
+Third parties: Companies that collect publicly available information or business partners that collect information and provide to us pursuant to their privacy policies and terms of service.
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 D. Who We Share Information With}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 We do not sell personal informat\hich\af1\dbch\af31505\loch\f1 ion or otherwise provide personal information to third parties, other than service providers receiving information to perform services for us on our behalf.
+
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+As with other companies that conduct digital marketing, we do share a limited set of data that is\hich\af1\dbch\af31505\loch\f1 
+ gathered when you visit our Websites and other web-based services, such as cookies and pixels, with third parties in order to allow you to see tailored digital advertisements about our products and services. We may also share certain information to enhan
+\hich\af1\dbch\af31505\loch\f1 c\hich\af1\dbch\af31505\loch\f1 
+e our ability to communicate with you and provide you with promotional information. To the extent this activity is interpreted as included in California law's broad definition of "data sale," we have provided you with opt-out rights as to that activity as
+\hich\af1\dbch\af31505\loch\f1  \hich\af1\dbch\af31505\loch\f1 further described in Section G below.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We may share your personal information with the following categories of third parties:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls6\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Affiliates
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Advertising and marketing companies
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Social media companies
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Technology companies
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+We do not knowingly sell the personal information of minors under 16 years of age.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 E. Your Privacy Rights}{\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 If you are a California resident, subject to applicable law, you have the following rights under California law with respect to your personal inform\hich\af1\dbch\af31505\loch\f1 ation.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls7\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \b\f4\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Right to Know.}{
+\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \~\hich\af4\dbch\af31505\loch\f4 You have the right to request what personal information we collect, use, disclose, and/or sell, as applicable.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \b\f4\fs21\cf20\chbrdr\brdrnone\brdrframe1 
+\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Right to Delete.}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \~\hich\af4\dbch\af31505\loch\f4 You have the right t\hich\af4\dbch\af31505\loch\f4 
+o request the deletion of your personal information that is collected or maintained by us.
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \b\f4\fs21\cf20\chbrdr\brdrnone\brdrframe1 
+\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Right to Opt-Out of Sales.}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \~\hich\af4\dbch\af31505\loch\f4 
+You have the right to opt-out of the sale of your personal information by us. You may access our Notice of Right to Opt-Out by clicking\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 
+\hich\af4\dbch\af31505\loch\f4  HYPERLINK "https://www.cvs.com/help/privacy_policy.jsp" \\l "noticeoo" }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid10899352 {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b020000000b000000e0c9ea79f9bace118c8200aa004ba90b70000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f00680065006c0070002f0070007200690076006100630079005f0070006f006c006900630079002e006a00
+730070000000795881f43b1d7f48af2c825dc485276300000000a5ab0003090000006e006f0074006900630065006f006f000000}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 here}}}
+\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 .
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \ab\af4\afs21 \ltrch\fcs0 \b\f4\fs21\cf20\chbrdr\brdrnone\brdrframe1 
+\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 Right to Non-Discrimination.}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \~\hich\af4\dbch\af31505\loch\f4 
+We may not discriminate against you because you have exercised any of the privacy rights described above. This right may be subject to the offers\hich\af4\dbch\af31505\loch\f4 
+ described in our Notice of Financial Incentives, which you may access by clicking\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 
+ HYPERLINK "https://www.cvs.com/help/privacy_policy.jsp" \\l "noticefi" }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid10899352 {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b020000000b000000e0c9ea79f9bace118c8200aa004ba90b70000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f00680065006c0070002f0070007200690076006100630079005f0070006f006c006900630079002e006a00
+730070000000795881f43b1d7f48af2c825dc485276300000000a5ab0003090000006e006f007400690063006500660069000000}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 here}}}
+\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 .
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+You may also authorize someone to exercise the above rights on your behalf. Documentation wil\hich\af1\dbch\af31505\loch\f1 
+l need to be provided that reflects that you have requested an authorized agent to make a request on your behalf. This may include a Power of Attorney document or other signed document. If we have collected information on your minor child, you may exercis
+\hich\af1\dbch\af31505\loch\f1 e\hich\af1\dbch\af31505\loch\f1  the above rights on behalf of your minor child.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 We must be able to reasonably ver\hich\af1\dbch\af31505\loch\f1 
+ify your identity and authority to exercise these rights before fulfilling a request. There are also various exclusions and exceptions that apply to these rights under applicable laws. So that we can verify your identity when you make a request, you will 
+\hich\af1\dbch\af31505\loch\f1 n\hich\af1\dbch\af31505\loch\f1 eed to sign into your }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid2953358 \hich\af1\dbch\af31505\loch\f1 RxOnTime.ai}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1  account or provide certain personal information via webform or over the phone.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+If you are a California resident and wish to seek to exercise these rights, please reach us in one of the following ways:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Right to Know / Right\hich\af1\dbch\af31505\loch\f1  to Delete:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf6\insrsid4481453\charrsid12014251 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls8\adjustright\rin0\lin1170\itap0\pararsid4481453 {\field\fldedit{\*\fldinst {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af4\dbch\af31505\loch\f4 
+ HYPERLINK "https://www.cvs.com/extracare/ccpa" }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid10899352\charrsid12014251 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b5e000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f006500780074007200610063006100720065002f0063006300700061000000795881f43b1d7f48af2c825d
+c485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\fs21\ul\cf6\chbrdr\brdrnone\brdrframe1 \insrsid4481453\charrsid12014251 \hich\af1\dbch\af31505\loch\f1 Interactive webform (ExtraCare)}}}\sectd \ltrsect
+\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 \~\hich\af4\dbch\af31505\loch\f4 or
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf6\insrsid4481453\charrsid12014251 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}\hich\af4\dbch\af31505\loch\f4 Password-protected web portal:\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 
+\af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af4\dbch\af31505\loch\f4  HYPERLINK "https://www.cvs.com/account/login/" }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid10899352\charrsid12014251 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000003000000e0c9ea79f9bace118c8200aa004ba90b5e000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f006100630063006f0075006e0074002f006c006f00670069006e002f000000795881f43b1d7f48af2c825d
+c485276300000000a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\fs21\ul\cf6\chbrdr\brdrnone\brdrframe1 \insrsid4481453\charrsid12014251 \hich\af1\dbch\af31505\loch\f1 Sign in here}}}\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {
+\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf6\insrsid2953358 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid2953358 \hich\af4\dbch\af31505\loch\f4 Call us 
+\hich\af4\dbch\af31505\loch\f4 at }{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af4\dbch\af31505\loch\f4 (}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid2953358 \hich\af4\dbch\af31505\loch\f4 
+913-219-1243}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af4\dbch\af31505\loch\f4 )
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid2953358 
+\par }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af1\dbch\af31505\loch\f1 See Section G for instructions on how to Opt-Out of\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf6\insrsid4481453\charrsid12014251 \hich\af1\dbch\af31505\loch\f1  HYPERLINK "https://www.cvs.com/help/privacy_policy.jsp" \\l "noticeoo" }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid10899352\charrsid12014251 {\*\datafield 
+08d0c9ea79f9bace118c8200aa004ba90b020000000b000000e0c9ea79f9bace118c8200aa004ba90b70000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f00680065006c0070002f0070007200690076006100630079005f0070006f006c006900630079002e006a00
+730070000000795881f43b1d7f48af2c825dc485276300000000a5ab0003090000006e006f0074006900630065006f006f000000}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\f1\fs21\ul\cf6\chbrdr\brdrnone\brdrframe1 \insrsid4481453\charrsid12014251 
+\hich\af1\dbch\af31505\loch\f1 Sale}}}\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid4481453\charrsid12014251 .
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid12014251 {\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 {\*\bkmkstart noticefi}{\*\bkmkend noticefi}
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Deidentified Patient Information}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 
+In addition to personal information, we may sell or disclose patient and/or member information that has been deidentified as permitted by law. To the extent we sell or share such deidentified patient and/or member information, we do so pursuant to one of 
+\hich\af1\dbch\af31505\loch\f1 t\hich\af1\dbch\af31505\loch\f1 
+he deidentification methodologies described in Section 164.514(b)(1) or (b)(2) of Title 45 of the Code of Federal Regulations, commonly known as the HIPAA expert determination method and the HIPAA safe harbor method, respectively.
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 CCPA Reporting Metrics}{\rtlch\fcs1 
+\af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par \hich\af1\dbch\af31505\loch\f1 For more information on the consumer requests that }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\hich\af1\dbch\af31505\loch\f1  has processed in the previous calendar year click\~}{\field\fldedit{\*\fldinst {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+ HYPERLINK "https://www.cvs.com/bizcontent/general/policy/consumer-request-metrics-disclosure.pdf" \\t "_blank" }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid10899352 {\*\datafield 
+00d0c9ea79f9bace118c8200aa004ba90b0200000083000000070000005f0062006c0061006e006b000000e0c9ea79f9bace118c8200aa004ba90bc4000000680074007400700073003a002f002f007700770077002e006300760073002e0063006f006d002f00620069007a0063006f006e00740065006e0074002f006700
+65006e006500720061006c002f0070006f006c006900630079002f0063006f006e00730075006d00650072002d0072006500710075006500730074002d006d006500740072006900630073002d0064006900730063006c006f0073007500720065002e007000640066000000795881f43b1d7f48af2c825dc4852763000000
+00a5ab0003}}}{\fldrslt {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \cs19\f1\fs21\ul\cf21\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 here}}}\sectd \ltrsect\linex0\endnhere\sectdefaultcl\sftnbj {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \ab\af1\afs21 \ltrch\fcs0 \b\f1\fs21\cf20\chbrdr\brdrnone\brdrframe1 \insrsid4481453 \hich\af1\dbch\af31505\loch\f1 California Shine the Light Law}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par {\listtext\pard\plain\ltrpar \rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f3\fs20\cf20\insrsid4481453 \loch\af3\dbch\af31505\hich\f3 \'b7\tab}}\pard \ltrpar\qj \fi-360\li1170\ri0\sl288\slmult0\widctlpar
+\jclisttab\tx720\wrapdefault\aspalpha\aspnum\faroman\ls12\adjustright\rin0\lin1170\itap0\pararsid4481453 {\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 
+If you are our customer and a California resident, you may request that we provide you with certain information about the entities with which we have shared our customers' personal information for the entities own direct marketing purposes during the 
+\hich\af4\dbch\af31505\loch\f4 preceding calendar year. To do so, please write to us at retailprivacy@}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 \f4\fs21\cf20\insrsid16254239 \hich\af4\dbch\af31505\loch\f4 RxOnTime}{\rtlch\fcs1 \af4\afs21 \ltrch\fcs0 
+\f4\fs21\cf20\insrsid4481453 \hich\af4\dbch\af31505\loch\f4 health.com.
+\par }\pard\plain \ltrpar\s2\qj \li0\ri0\keepn\nowidctlpar\wrapdefault\faroman\outlinelevel1\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \ab\ai\af1\afs24\alang1025 \ltrch\fcs0 
+\b\i\fs24\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 \ltrch\fcs0 \cf21\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 Contact Information
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 
+If you have any questions or concerns about this statement, or about the way your information is collected and used, please\~\hich\af1\dbch\af31505\loch\f1 call us }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid2953358 
+\hich\af1\dbch\af31505\loch\f1 at 913\hich\af1\dbch\af31505\loch\f1 -219-1243}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\insrsid4481453 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 \hich\af1\dbch\af31505\loch\f1 If you have any qu\hich\af1\dbch\af31505\loch\f1 
+estions about the content of this Privacy Policy, please contact the }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf20\insrsid4481453 
+\hich\af1\dbch\af31505\loch\f1  Health Privacy Office at the following address:
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af4\afs18 
+\ltrch\fcs0 \f4\fs18\cf20\insrsid4481453 \line }{\rtlch\fcs1 \af0\afs24 \ltrch\fcs0 \f0\fs24\cf6\insrsid4481453\charrsid12014251 
+\par }\pard\plain \ltrpar\s18\qj \li0\ri0\widctlpar\wrapdefault\aspalpha\aspnum\faroman\adjustright\rin0\lin0\itap0\pararsid4481453 \cbpat8 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 
+\fs24\lang1033\langfe1033\loch\af0\hich\af0\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid16254239 \hich\af1\dbch\af31505\loch\f1 RXONTIME}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 
+\f1\fs21\cf6\insrsid2953358 \hich\af1\dbch\af31505\loch\f1 .ai}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid4481453\charrsid12014251 \line }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid2953358 \hich\af1\dbch\af31505\loch\f1 
+1201 Cold spring Dr
+\par \hich\af1\dbch\af31505\loch\f1 O\hich\af1\dbch\af31505\loch\f1 fall\hich\af1\dbch\af31505\loch\f1 o\hich\af1\dbch\af31505\loch\f1 n\hich\af1\dbch\af31505\loch\f1 , MO 63368
+\par \hich\af1\dbch\af31505\loch\f1 913-219-1243}{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid4481453\charrsid12014251 \line }{\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid9057839 \hich\af1\dbch\af31505\loch\f1 admin@rxontime.ai}{
+\rtlch\fcs1 \af1\afs21 \ltrch\fcs0 \f1\fs21\cf6\insrsid4481453\charrsid12014251 
+\par }\pard\plain \ltrpar\qj \li0\ri0\widctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4481453 \rtlch\fcs1 \af1\afs22\alang1025 \ltrch\fcs0 \fs22\lang1033\langfe1033\loch\af1\hich\af1\dbch\af31505\cgrid\langnp1033\langfenp1033 {\rtlch\fcs1 \af1 
+\ltrch\fcs0 \insrsid6042575\charrsid4481453 
+\par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
+9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
+5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
+b01d583deee5f99824e290b4ba3f364eac4a430883b3c092d4eca8f946c916422ecab927f52ea42b89a1cd59c254f919b0e85e6535d135a8de20f20b8c12c3b0
+0c895fcf6720192de6bf3b9e89ecdbd6596cbcdd8eb28e7c365ecc4ec1ff1460f53fe813d3cc7f5b7f020000ffff0300504b030414000600080000002100a5d6
+a7e7c0000000360100000b0000005f72656c732f2e72656c73848fcf6ac3300c87ef85bd83d17d51d2c31825762fa590432fa37d00e1287f68221bdb1bebdb4f
+c7060abb0884a4eff7a93dfeae8bf9e194e720169aaa06c3e2433fcb68e1763dbf7f82c985a4a725085b787086a37bdbb55fbc50d1a33ccd311ba548b6309512
+0f88d94fbc52ae4264d1c910d24a45db3462247fa791715fd71f989e19e0364cd3f51652d73760ae8fa8c9ffb3c330cc9e4fc17faf2ce545046e37944c69e462
+a1a82fe353bd90a865aad41ed0b5b8f9d6fd010000ffff0300504b0304140006000800000021006b799616830000008a0000001c0000007468656d652f746865
+6d652f7468656d654d616e616765722e786d6c0ccc4d0ac3201040e17da17790d93763bb284562b2cbaebbf600439c1a41c7a0d29fdbd7e5e38337cedf14d59b
+4b0d592c9c070d8a65cd2e88b7f07c2ca71ba8da481cc52c6ce1c715e6e97818c9b48d13df49c873517d23d59085adb5dd20d6b52bd521ef2cdd5eb9246a3d8b
+4757e8d3f729e245eb2b260a0238fd010000ffff0300504b030414000600080000002100b6f4679893070000c9200000160000007468656d652f7468656d652f
+7468656d65312e786d6cec59cd8b1bc915bf07f23f347d97f5d5ad8fc1f2a24fcfda33b6b164873dd648a5eef2547789aad28cc56208de532e81c026e49085bd
+ed21842cecc22eb9e48f31d8249b3f22afaa5bdd5552c99e191c3061463074977eefd5afde7bf5de53d5ddcf5e26d4bbc05c1096f6fcfa9d9aefe174ce16248d
+7afeb3d9a4d2f13d2151ba4094a5b8e76fb0f03fbbf7eb5fdd454732c609f6403e1547a8e7c752ae8eaa5531876124eeb0154ee1bb25e30992f0caa3ea82a34b
+d09bd06aa3566b55134452df4b51026a1f2f97648ebd9952e9dfdb2a1f53784da5500373caa74a35b6243476715e5708b11143cabd0b447b3eccb3609733fc52
+fa1e4542c2173dbfa6fffceabdbb5574940b517940d6909be8bf5c2e17589c37f49c3c3a2b260d823068f50bfd1a40e53e6edc1eb7c6ad429f06a0f91c569a71
+b175b61bc320c71aa0ecd1a17bd41e35eb16ded0dfdce3dc0fd5c7c26b50a63fd8c34f2643b0a285d7a00c1feee1c3417730b2f56b50866fede1dbb5fe28685b
+fa3528a6243ddf43d7c25673b85d6d0159327aec8477c360d26ee4ca4b144443115d6a8a254be5a1584bd00bc6270050408a24493db959e1259a43140f112567
+9c7827248a21f056286502866b8ddaa4d684ffea13e827ed5174849121ad780113b137a4f87862cec94af6fc07a0d537206f7ffef9cdeb1fdfbcfee9cd575fbd
+79fdf77c6eadca923b466964cafdf2dd1ffef3cd6fbd7ffff0ed2f5fff319b7a172f4cfcbbbffdeedd3ffef93ef5b0e2d2146ffff4fdbb1fbf7ffbe7dfffebaf
+5f3bb4f7393a33e1339260e13dc297de5396c0021dfcf119bf9ec42c46c494e8a791402952b338f48f656ca11f6d10450edc00db767cce21d5b880f7d72f2cc2
+d398af2571687c182716f094313a60dc6985876a2ec3ccb3751ab927e76b13f714a10bd7dc43945a5e1eaf579063894be530c616cd2714a5124538c5d253dfb1
+738c1dabfb8210cbaea764ce99604be97d41bc01224e93ccc899154da5d03149c02f1b1741f0b7659bd3e7de8051d7aa47f8c246c2de40d4417e86a965c6fb68
+2d51e252394309350d7e8264ec2239ddf0b9891b0b099e8e3065de78818570c93ce6b05ec3e90f21cdb8dd7e4a37898de4929cbb749e20c64ce4889d0f6394ac
+5cd829496313fbb938871045de13265df05366ef10f50e7e40e941773f27d872f787b3c133c8b026a53240d4376beef0e57dccacf89d6ee8126157aae9f3c44a
+b17d4e9cd131584756689f604cd1255a60ec3dfbdcc160c05696cd4bd20f62c82ac7d815580f901dabea3dc5027a25d5dcece7c91322ac909de2881de073bad9
+493c1b9426881fd2fc08bc6eda7c0ca52e7105c0633a3f37818f08f480102f4ea33c16a0c308ee835a9fc4c82a60ea5db8e375c32dff5d658fc1be7c61d1b8c2
+be04197c6d1948eca6cc7b6d3343d49aa00c9819822ec3956e41c4727f29a28aab165b3be596f6a62ddd00dd91d5f42424fd6007b4d3fb84ffbbde073a8cb77f
+f9c6b10f3e4ebfe3566c25ab6b763a8792c9f14e7f7308b7dbd50c195f904fbfa919a175fa04431dd9cf58b73dcd6d4fe3ffdff73487f6f36d2773a8dfb8ed64
+7ce8306e3b99fc70e5e3743265f3027d8d3af0c80e7af4b14f72f0d46749289dca0dc527421ffc08f83db398c0a092d3279eb838055cc5f0a8ca1c4c60e1228e
+b48cc799fc0d91f134462b381daafb4a492472d591f0564cc0a1911e76ea5678ba4e4ed9223becacd7d5c16656590592e5782d2cc6e1a04a66e856bb3cc02bd4
+6bb6913e68dd1250b2d721614c6693683a48b4b783ca48fa58178ce620a157f65158741d2c3a4afdd6557b2c805ae115f8c1edc1cff49e1f06200242701e07cd
+f942f92973f5d6bbda991fd3d3878c69450034d8db08283ddd555c0f2e4fad2e0bb52b78da2261849b4d425b46377822869fc17974aad1abd0b8aeafbba54b2d
+7aca147a3e08ad9246bbf33e1637f535c8ede6069a9a9982a6de65cf6f35430899395af5fc251c1ac363b282d811ea3717a211dcbccc25cf36fc4d32cb8a0b39
+4222ce0cae934e960d122231f728497abe5a7ee1069aea1ca2b9d51b90103e59725d482b9f1a3970baed64bc5ce2b934dd6e8c284b67af90e1b35ce1fc568bdf
+1cac24d91adc3d8d1797de195df3a708422c6cd795011744c0dd413db3e682c0655891c8caf8db294c79da356fa3740c65e388ae62945714339967709dca0b3a
+faadb081f196af190c6a98242f8467912ab0a651ad6a5a548d8cc3c1aafb6121653923699635d3ca2aaa6abab39835c3b60cecd8f26645de60b53531e434b3c2
+67a97b37e576b7b96ea74f28aa0418bcb09fa3ea5ea12018d4cac92c6a8af17e1a56393b1fb56bc776811fa07695226164fdd656ed8edd8a1ae19c0e066f54f9
+416e376a6168b9ed2bb5a5f5adb979b1cdce5e40f2184197bba6526857c2c92e47d0104d754f92a50dd8222f65be35e0c95b73d2f3bfac85fd60d80887955a27
+1c57826650ab74c27eb3d20fc3667d1cd66ba341e31514161927f530bbb19fc00506dde4f7f67a7cefee3ed9ded1dc99b3a4caf4dd7c5513d777f7f5c6e1bb7b
+8f40d2f9b2d598749bdd41abd26df627956034e854bac3d6a0326a0ddba3c9681876ba9357be77a1c141bf390c5ae34ea5551f0e2b41aba6e877ba9576d068f4
+8376bf330efaaff23606569ea58fdc16605ecdebde7f010000ffff0300504b0304140006000800000021000dd1909fb60000001b010000270000007468656d65
+2f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73848f4d0ac2301484f78277086f6fd3ba109126dd88d0add40384e4350d36
+3f2451eced0dae2c082e8761be9969bb979dc9136332de3168aa1a083ae995719ac16db8ec8e4052164e89d93b64b060828e6f37ed1567914b284d262452282e
+3198720e274a939cd08a54f980ae38a38f56e422a3a641c8bbd048f7757da0f19b017cc524bd62107bd5001996509affb3fd381a89672f1f165dfe514173d985
+0528a2c6cce0239baa4c04ca5bbabac4df000000ffff0300504b01022d0014000600080000002100e9de0fbfff0000001c020000130000000000000000000000
+0000000000005b436f6e74656e745f54797065735d2e786d6c504b01022d0014000600080000002100a5d6a7e7c0000000360100000b00000000000000000000
+000000300100005f72656c732f2e72656c73504b01022d00140006000800000021006b799616830000008a0000001c0000000000000000000000000019020000
+7468656d652f7468656d652f7468656d654d616e616765722e786d6c504b01022d0014000600080000002100b6f4679893070000c92000001600000000000000
+000000000000d60200007468656d652f7468656d652f7468656d65312e786d6c504b01022d00140006000800000021000dd1909fb60000001b01000027000000
+000000000000000000009d0a00007468656d652f7468656d652f5f72656c732f7468656d654d616e616765722e786d6c2e72656c73504b050600000000050005005d010000980b00000000}
+{\*\colorschememapping 3c3f786d6c2076657273696f6e3d22312e302220656e636f64696e673d225554462d3822207374616e64616c6f6e653d22796573223f3e0d0a3c613a636c724d
+617020786d6c6e733a613d22687474703a2f2f736368656d61732e6f70656e786d6c666f726d6174732e6f72672f64726177696e676d6c2f323030362f6d6169
+6e22206267313d226c743122207478313d22646b3122206267323d226c743222207478323d22646b322220616363656e74313d22616363656e74312220616363
+656e74323d22616363656e74322220616363656e74333d22616363656e74332220616363656e74343d22616363656e74342220616363656e74353d22616363656e74352220616363656e74363d22616363656e74362220686c696e6b3d22686c696e6b2220666f6c486c696e6b3d22666f6c486c696e6b222f3e}
+{\*\latentstyles\lsdstimax376\lsdlockeddef0\lsdsemihiddendef0\lsdunhideuseddef0\lsdqformatdef0\lsdprioritydef99{\lsdlockedexcept \lsdqformat1 \lsdpriority0 \lsdlocked0 Normal;\lsdqformat1 \lsdlocked0 heading 1;\lsdqformat1 \lsdlocked0 heading 2;
+\lsdqformat1 \lsdlocked0 heading 3;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 4;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 6;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 7;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 8;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority9 \lsdlocked0 heading 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 7;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 8;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index 9;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 1;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 3;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 4;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 5;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 6;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 7;\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 8;
+\lsdsemihidden1 \lsdunhideused1 \lsdpriority39 \lsdlocked0 toc 9;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 header;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footer;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 index heading;\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority35 \lsdlocked0 caption;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of figures;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 envelope return;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 footnote reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation reference;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 line number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 page number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote reference;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 endnote text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 table of authorities;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 macro;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 toa heading;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Bullet 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Number 5;\lsdqformat1 \lsdpriority10 \lsdlocked0 Title;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Closing;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Signature;\lsdsemihidden1 \lsdunhideused1 \lsdpriority1 \lsdlocked0 Default Paragraph Font;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 3;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 4;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 List Continue 5;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Message Header;\lsdqformat1 \lsdpriority11 \lsdlocked0 Subtitle;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Salutation;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Date;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text First Indent 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Note Heading;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 2;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Body Text Indent 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Block Text;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 FollowedHyperlink;
+\lsdqformat1 \lsdpriority22 \lsdlocked0 Strong;\lsdqformat1 \lsdpriority20 \lsdlocked0 Emphasis;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Document Map;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Plain Text;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 E-mail Signature;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Top of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Bottom of Form;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Normal (Web);
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Acronym;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Address;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Cite;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Code;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Definition;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Keyboard;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Preformatted;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Sample;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Typewriter;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 HTML Variable;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 annotation subject;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 No List;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 1;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 2;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Outline List 3;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Balloon Text;
+\lsdpriority39 \lsdlocked0 Table Grid;\lsdsemihidden1 \lsdlocked0 Placeholder Text;\lsdqformat1 \lsdpriority1 \lsdlocked0 No Spacing;\lsdpriority60 \lsdlocked0 Light Shading;\lsdpriority61 \lsdlocked0 Light List;\lsdpriority62 \lsdlocked0 Light Grid;
+\lsdpriority63 \lsdlocked0 Medium Shading 1;\lsdpriority64 \lsdlocked0 Medium Shading 2;\lsdpriority65 \lsdlocked0 Medium List 1;\lsdpriority66 \lsdlocked0 Medium List 2;\lsdpriority67 \lsdlocked0 Medium Grid 1;\lsdpriority68 \lsdlocked0 Medium Grid 2;
+\lsdpriority69 \lsdlocked0 Medium Grid 3;\lsdpriority70 \lsdlocked0 Dark List;\lsdpriority71 \lsdlocked0 Colorful Shading;\lsdpriority72 \lsdlocked0 Colorful List;\lsdpriority73 \lsdlocked0 Colorful Grid;\lsdpriority60 \lsdlocked0 Light Shading Accent 1;
+\lsdpriority61 \lsdlocked0 Light List Accent 1;\lsdpriority62 \lsdlocked0 Light Grid Accent 1;\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 1;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 1;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 1;
+\lsdsemihidden1 \lsdlocked0 Revision;\lsdqformat1 \lsdpriority34 \lsdlocked0 List Paragraph;\lsdqformat1 \lsdpriority29 \lsdlocked0 Quote;\lsdqformat1 \lsdpriority30 \lsdlocked0 Intense Quote;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 1;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 1;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 1;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 1;\lsdpriority70 \lsdlocked0 Dark List Accent 1;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 1;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 1;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 1;\lsdpriority60 \lsdlocked0 Light Shading Accent 2;\lsdpriority61 \lsdlocked0 Light List Accent 2;\lsdpriority62 \lsdlocked0 Light Grid Accent 2;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 2;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 2;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 2;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 2;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 2;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 2;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 2;\lsdpriority70 \lsdlocked0 Dark List Accent 2;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 2;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 2;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 2;\lsdpriority60 \lsdlocked0 Light Shading Accent 3;\lsdpriority61 \lsdlocked0 Light List Accent 3;\lsdpriority62 \lsdlocked0 Light Grid Accent 3;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 3;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 3;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 3;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 3;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 3;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 3;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 3;\lsdpriority70 \lsdlocked0 Dark List Accent 3;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 3;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 3;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 3;\lsdpriority60 \lsdlocked0 Light Shading Accent 4;\lsdpriority61 \lsdlocked0 Light List Accent 4;\lsdpriority62 \lsdlocked0 Light Grid Accent 4;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 4;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 4;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 4;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 4;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 4;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 4;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 4;\lsdpriority70 \lsdlocked0 Dark List Accent 4;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 4;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 4;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 4;\lsdpriority60 \lsdlocked0 Light Shading Accent 5;\lsdpriority61 \lsdlocked0 Light List Accent 5;\lsdpriority62 \lsdlocked0 Light Grid Accent 5;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 5;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 5;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 5;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 5;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 5;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 5;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 5;\lsdpriority70 \lsdlocked0 Dark List Accent 5;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 5;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 5;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 5;\lsdpriority60 \lsdlocked0 Light Shading Accent 6;\lsdpriority61 \lsdlocked0 Light List Accent 6;\lsdpriority62 \lsdlocked0 Light Grid Accent 6;
+\lsdpriority63 \lsdlocked0 Medium Shading 1 Accent 6;\lsdpriority64 \lsdlocked0 Medium Shading 2 Accent 6;\lsdpriority65 \lsdlocked0 Medium List 1 Accent 6;\lsdpriority66 \lsdlocked0 Medium List 2 Accent 6;
+\lsdpriority67 \lsdlocked0 Medium Grid 1 Accent 6;\lsdpriority68 \lsdlocked0 Medium Grid 2 Accent 6;\lsdpriority69 \lsdlocked0 Medium Grid 3 Accent 6;\lsdpriority70 \lsdlocked0 Dark List Accent 6;\lsdpriority71 \lsdlocked0 Colorful Shading Accent 6;
+\lsdpriority72 \lsdlocked0 Colorful List Accent 6;\lsdpriority73 \lsdlocked0 Colorful Grid Accent 6;\lsdqformat1 \lsdpriority19 \lsdlocked0 Subtle Emphasis;\lsdqformat1 \lsdpriority21 \lsdlocked0 Intense Emphasis;
+\lsdqformat1 \lsdpriority31 \lsdlocked0 Subtle Reference;\lsdqformat1 \lsdpriority32 \lsdlocked0 Intense Reference;\lsdqformat1 \lsdpriority33 \lsdlocked0 Book Title;\lsdsemihidden1 \lsdunhideused1 \lsdpriority37 \lsdlocked0 Bibliography;
+\lsdsemihidden1 \lsdunhideused1 \lsdqformat1 \lsdpriority39 \lsdlocked0 TOC Heading;\lsdpriority41 \lsdlocked0 Plain Table 1;\lsdpriority42 \lsdlocked0 Plain Table 2;\lsdpriority43 \lsdlocked0 Plain Table 3;\lsdpriority44 \lsdlocked0 Plain Table 4;
+\lsdpriority45 \lsdlocked0 Plain Table 5;\lsdpriority40 \lsdlocked0 Grid Table Light;\lsdpriority46 \lsdlocked0 Grid Table 1 Light;\lsdpriority47 \lsdlocked0 Grid Table 2;\lsdpriority48 \lsdlocked0 Grid Table 3;\lsdpriority49 \lsdlocked0 Grid Table 4;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 1;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 1;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 1;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 1;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 1;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 2;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 2;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 2;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 2;
+\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 3;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 3;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 3;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 3;
+\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 3;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 4;
+\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 4;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 4;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 4;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 4;
+\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 4;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 5;
+\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 5;\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 5;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 5;
+\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 5;\lsdpriority46 \lsdlocked0 Grid Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 Grid Table 2 Accent 6;\lsdpriority48 \lsdlocked0 Grid Table 3 Accent 6;
+\lsdpriority49 \lsdlocked0 Grid Table 4 Accent 6;\lsdpriority50 \lsdlocked0 Grid Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 Grid Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 Grid Table 7 Colorful Accent 6;
+\lsdpriority46 \lsdlocked0 List Table 1 Light;\lsdpriority47 \lsdlocked0 List Table 2;\lsdpriority48 \lsdlocked0 List Table 3;\lsdpriority49 \lsdlocked0 List Table 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful;\lsdpriority52 \lsdlocked0 List Table 7 Colorful;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 1;\lsdpriority47 \lsdlocked0 List Table 2 Accent 1;\lsdpriority48 \lsdlocked0 List Table 3 Accent 1;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 1;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 1;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 1;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 1;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 2;\lsdpriority47 \lsdlocked0 List Table 2 Accent 2;\lsdpriority48 \lsdlocked0 List Table 3 Accent 2;\lsdpriority49 \lsdlocked0 List Table 4 Accent 2;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 2;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 2;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 2;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 3;
+\lsdpriority47 \lsdlocked0 List Table 2 Accent 3;\lsdpriority48 \lsdlocked0 List Table 3 Accent 3;\lsdpriority49 \lsdlocked0 List Table 4 Accent 3;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 3;
+\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 3;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 3;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 4;\lsdpriority47 \lsdlocked0 List Table 2 Accent 4;
+\lsdpriority48 \lsdlocked0 List Table 3 Accent 4;\lsdpriority49 \lsdlocked0 List Table 4 Accent 4;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 4;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 4;
+\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 4;\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 5;\lsdpriority47 \lsdlocked0 List Table 2 Accent 5;\lsdpriority48 \lsdlocked0 List Table 3 Accent 5;
+\lsdpriority49 \lsdlocked0 List Table 4 Accent 5;\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 5;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 5;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 5;
+\lsdpriority46 \lsdlocked0 List Table 1 Light Accent 6;\lsdpriority47 \lsdlocked0 List Table 2 Accent 6;\lsdpriority48 \lsdlocked0 List Table 3 Accent 6;\lsdpriority49 \lsdlocked0 List Table 4 Accent 6;
+\lsdpriority50 \lsdlocked0 List Table 5 Dark Accent 6;\lsdpriority51 \lsdlocked0 List Table 6 Colorful Accent 6;\lsdpriority52 \lsdlocked0 List Table 7 Colorful Accent 6;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Mention;
+\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Hyperlink;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Hashtag;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Unresolved Mention;\lsdsemihidden1 \lsdunhideused1 \lsdlocked0 Smart Link;}}{\*\datastore 01050000
+02000000180000004d73786d6c322e534158584d4c5265616465722e362e3000000000000000000000060000
+d0cf11e0a1b11ae1000000000000000000000000000000003e000300feff090006000000000000000000000001000000010000000000000000100000feffffff00000000feffffff0000000000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000030ce
+573ad73bd801feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000105000000000000}}
